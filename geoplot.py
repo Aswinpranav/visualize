@@ -212,7 +212,6 @@ geoplot_template = """
 </html>
 """
 
-
 def read_var(state, var):
     return get_by_path(state, re.split("/", var))
 
